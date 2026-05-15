@@ -10,35 +10,33 @@
     "swiper": "^12.0.3"
   },
   "scripts": {
-    "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.20",
-    "@types/node": "^24.10.1",
+    "@types/node": "^24.12.4",
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
     "@types/swiper": "^5.4.3",
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.1",
+    "@vitejs/plugin-react": "^6.0.2",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^13.0.1",
     "css-loader": "^7.1.2",
     "dotenv-webpack": "^8.1.1",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.6.5",
     "mini-css-extract-plugin": "^2.9.4",
-    "sass": "^1.94.1",
+    "sass": "^1.99.0",
     "sass-loader": "^16.0.6",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "webpack": "^5.103.0",
-    "webpack-bundle-analyzer": "^5.0.1",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "vite": "^8.0.13",
+    "webpack-bundle-analyzer": "^5.0.1"
   },
   "name": "exam",
   "version": "1.0.0",

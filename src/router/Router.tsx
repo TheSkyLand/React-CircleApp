@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
 
-import MainPage from '../pages/TestPage';
+import MainPage from '../pages/MainPage';
 
 const Router = () => {
     return (
         <Routes>
-            <Route path="/test" index element={<MainPage />} />
+            <Route path="/" index element={<MainPage />} />
         </Routes>
     );
 };
